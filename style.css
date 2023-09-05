@@ -1,0 +1,264 @@
+.gamer {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Work Sans', sans-serif;
+    gap: 690px;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.right {
+    gap: 22px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.right img {
+    width: 25px;
+    height: 20px;
+}
+
+.right div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    width: 265px;
+    height: 50px;
+    background-color: rgb(237, 229, 229);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.goat {
+    font-family: 'Work Sans', sans-serif;
+    gap: 80px;
+}
+
+#play {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.goat h2 {
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 20px;
+    color: #F948B2;
+}
+
+.goat p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.goat button,
+.detail button {
+    width: 120px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: #f38cca;
+    color: #f1f1f1;
+    border: 0;
+    margin-right: 10px;
+}
+
+.gamer-section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.detail {}
+
+.detail h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F948B2;
+}
+
+#para {
+    font-weight: 300;
+    font-size: 15px;
+    color: #534C64;
+}
+
+#purpose {
+    font-weight: 700;
+    font-size: 16px;
+    color: #534C64;
+}
+
+.detail p {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+section {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.light {
+    margin-left: 12px;
+    color: #F948B2;
+}
+
+.title h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.title p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 15px;
+    top: 20px;
+    margin-bottom: 50px;
+    color: #534C64;
+}
+
+.online-games {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.online-games img {
+    width: 300px;
+    height: 380px;
+}
+
+.cartoon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.cartoon h2{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.cartoon p{
+    line-height: 25px;
+    margin-top: -25px;
+}
+
+#pink{
+    color: #F948B2;
+}
+
+#horse-rider{
+ position: relative;   
+}
+
+#lady-cat{
+    position: absolute;
+    right: 700px;
+    bottom: -2200px;
+}
+
+.category{
+    margin-top: 200px;
+}
+
+.first-category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 20px;
+}
+
+#acrade{
+    border-radius: 2px solid #F948B2;
+}
+
+.first-category button{
+    display: flex;
+    border-radius: 40px;
+    gap: 10px;
+    border: 0;
+}
+
+.foot{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(10, 10, 38);
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 200px;
+}
+
+.title, .about, .links, .terms, .gamer-bd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    color: #f1f1f1;
+}
+
+.title{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    gap: 15px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#joy{
+    color: #F948B2;
+}
+
+.about{
+    font-weight: 700;
+    font-size: 15px;
+    gap: 55px;
+}
+
+.links img{
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 20px;
+}
+
+.terms, .gamer-bd{
+    font-weight: 500;
+    font-size: 15px;
+    color: grey;
+    gap: 65px;
+}
+
+#apple{
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 0;
+}
