@@ -3,6 +3,7 @@
     height: 130px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-family: 'Work Sans', sans-serif;
     gap: 690px;
 }
@@ -46,12 +47,15 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
 }
 
 .goat {
     font-family: 'Work Sans', sans-serif;
-    gap: 80px;
+    padding-right: 180px;
+}
+
+#goat-img {
+    padding-left: 80px;
 }
 
 #play {
@@ -63,7 +67,8 @@ main {
     font-size: 90px;
     font-weight: 800;
     line-height: 20px;
-    color: #F948B2;
+    color: #f0259e;
+
 }
 
 .goat p {
@@ -76,27 +81,37 @@ main {
     width: 120px;
     height: 45px;
     border-radius: 40px;
-    background-color: #f38cca;
-    color: #f1f1f1;
+    background-color: #f0259e;
+    color: #ffffff;
     border: 0;
     margin-right: 10px;
 }
 
+#sky-blue {
+    background-color: rgb(13, 184, 251);
+}
+
 .gamer-section {
-    width: 100%;
+    width: 80%;
     height: 600px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Work Sans', sans-serif;
 }
 
-.detail {}
+.detail {
+    width: 480px;
+    height: 700px;
+    text-align: right;
+    margin-top: 20%;
+}
 
 .detail h2 {
     font-weight: 700;
     font-size: 45px;
-    color: #F948B2;
+    color: #f0259e;
 }
 
 #para {
@@ -122,10 +137,10 @@ section {
 
 .light {
     margin-left: 12px;
-    color: #F948B2;
+    color: #f0259e;
 }
 
-.title h3 {
+.title-online h3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,7 +148,7 @@ section {
     font-size: 45px;
 }
 
-.title p {
+.title-online p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,41 +172,40 @@ section {
 }
 
 .cartoon {
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 120px;
+    margin-left: 120px;
 }
 
-.cartoon h2{
+.text {
+    text-align: right;
+}
+
+.cartoon h2 {
     font-weight: 700;
     font-size: 48px;
 }
 
-.cartoon p{
+.cartoon p {
     line-height: 25px;
     margin-top: -25px;
 }
 
-#pink{
-    color: #F948B2;
+#lady-cat {
+    position: relative;
+    right: 800px;
+    top: 100px;
 }
 
-#horse-rider{
- position: relative;   
-}
-
-#lady-cat{
-    position: absolute;
-    right: 700px;
-    bottom: -2200px;
-}
-
-.category{
+.category {
     margin-top: 200px;
 }
 
-.first-category{
+.first-category {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,18 +213,15 @@ section {
     margin-bottom: 20px;
 }
 
-#acrade{
-    border-radius: 2px solid #F948B2;
-}
-
-.first-category button{
+.first-category button {
     display: flex;
     border-radius: 40px;
     gap: 10px;
-    border: 0;
+    align-items: center;
+    border-color: #ff56bb;
 }
 
-.foot{
+.foot {
     width: 100%;
     height: 600px;
     background-color: rgb(10, 10, 38);
@@ -218,7 +229,11 @@ section {
     margin-top: 200px;
 }
 
-.title, .about, .links, .terms, .gamer-bd{
+.title,
+.about,
+.links,
+.terms,
+.gamer-bd {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -226,7 +241,7 @@ section {
     color: #f1f1f1;
 }
 
-.title{
+.title {
     padding-top: 80px;
     padding-bottom: 50px;
     gap: 15px;
@@ -234,30 +249,31 @@ section {
     font-size: 35px;
 }
 
-#joy{
-    color: #F948B2;
+#joy {
+    color: #f0259e;
 }
 
-.about{
+.about {
     font-weight: 700;
     font-size: 15px;
     gap: 55px;
 }
 
-.links img{
+.links img {
     width: 40px;
     height: 40px;
     margin: 40px 20px 40px 20px;
 }
 
-.terms, .gamer-bd{
+.terms,
+.gamer-bd {
     font-weight: 500;
     font-size: 15px;
     color: grey;
     gap: 65px;
 }
 
-#apple{
+#apple {
     background-color: #ffffff;
     border-radius: 50px;
     border: 0;
